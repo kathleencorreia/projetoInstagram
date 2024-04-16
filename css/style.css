@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'; 
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.container-main{
+    display: flex;
+    margin: 80px 0 50px;
+}
+
+#banner-container,
+.form-container{
+    flex: 1 1 0;
+    width: 50%;
+}
+
+#banner-container{
+    text-align: right;
+}
+
+.container-main img{
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 400px;   
+}
+
+.form-container{
+    text-align: center;
+}
+
+.form-container{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container img{
+    width: 175px;
+    height: 51px;
+    margin-bottom: 30px;
+}
+
+#facebook-login-phone{
+    display: none;
+}
+
+#main-language{
+    display: none;
+}
+
+.separator-phone{
+    display: none;
+}
+
+.form-box{
+    width: 350px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;  
+}
+
+.form-container form input{
+    width: 268px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 3px;  
+}
+
+.form-container form input:focus{
+    outline: none;
+}
+
+#forgot-pass-phone{
+    display: none;
+}
+
+.form-container form input[type=submit]{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 149, 246, 1);
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    cursor: pointer; 
+}
+
+.form-container form input[type=submit]:hover{
+    background-color: rgba(24, 119, 242, 1);
+}
+
+.separator{
+    position: relative;
+    text-align: center;
+}
+
+.separator #line{
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    margin: 25px auto 0;
+}
+
+.separator span{
+    position: absolute; 
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: #fff;
+    top: 18px;
+    width: 50px; 
+    margin-left: -25px; 
+    font-size: 14px;
+}
+
+#facebook-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+
+#facebook-login img{
+    width: 16px;
+}
+
+#facebook-login span{
+    color: #385185;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#other-links #forgot-pass{
+    text-align: center;
+}
+
+#other-links #forgot-pass a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(0, 55, 107);
+}
+
+.container-sign{
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    width: 350px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.container-sign span{
+    color: rgba(0, 149, 246, 1);
+    font-weight: bold;
+}
+
+.container-app{
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.container-app img{
+    width: 136px;
+    height: 40px;
+}
+
+#footer-links{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+#footer-links li{
+   list-style: none; 
+}
+
+#footer-links a{
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#footer-links a:hover{
+    text-decoration: underline;
+}
+
+#footer-language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+#footer-language select, p{
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+}
+
+#footer-language select{
+    border: none;
+    background-color: #fafafa;
+}
+
+#footer-language select:focus{
+    outline: none;
+}
+
+.footer-phone{
+    display: none;
+}
