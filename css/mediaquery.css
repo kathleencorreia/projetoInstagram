@@ -1,158 +1,168 @@
 /* tablet */
-@media screen and (max-width:834px){
-    #banner-container{
-        display: none;
-        
-    }
+@media screen and (max-width: 834px) {
+  #banner-container {
+    display: none;
+  }
 
-    .form-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  }
 
-    #footer-links{
-        gap: 20px;
-        padding: 0 60px;
-        flex-wrap: wrap;
-        margin-bottom: 20px;
-    }  
+  .container-main {
+    display: flex;
+    margin: 20px 0 10px;
+  }
+
+  #footer-links {
+    gap: 20px;
+    padding: 0 60px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 428px) {
+  #main-language {
+    display: block;
+  }
 
-       #main-language{
-        display: block;
-    }  
-      
-    #facebook-login-phone{
-        display: block;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(0, 149, 246);
-        width: 235px;
-        height: 34px;
-        border-radius: 10px;
-        margin-top: 20px;
- 
-    }
+  .form-container {
+    margin: 0;
+  }
 
-    #facebook-login-phone:hover{
-        background-color: rgba(24, 119, 242, 1);
-    }
-    
-    #facebook-login-phone .bx{
-        font-size: 18px;  
-        color: #fafafa;
-        margin: 0 10px;        
-    }
+  .form-container img {
+    margin-bottom: 0;
+  }
 
-    #facebook-login-phone span{
-        color: #fff;
-        font-size: 14px;
-        font-weight: 600;
-    }
+  #facebook-login-phone {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 149, 246);
+    width: 235px;
+    height: 34px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
 
-    .separator-phone{
-        display: block;
-        position: relative;
-        text-align: center;
-        margin-bottom: 30px;
-    }
+  #facebook-login-phone:hover {
+    background-color: rgba(24, 119, 242, 1);
+  }
 
-    .separator-phone #line-phone{
-        border-bottom: 1px solid rgb(204, 204, 204);
-        width: 270px;
-        margin: 25px auto 0;
-    }
+  #facebook-login-phone .bx {
+    font-size: 18px;
+    color: #fafafa;
+    margin: 0 10px;
+  }
 
-    .separator-phone span{
-        position: absolute;
-        text-transform: uppercase;
-        color: rgb(186, 186, 186);
-        background-color: rgb(255, 255, 255);
-        top: 18px;
-        width: 50px;
-        margin-left: -25px;
-        font-size: 14px; 
-    }
+  #facebook-login-phone span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+  }
 
-    .form-container form input{
-        width: 235px;
-        padding: 12px;
-        font-size: 12px;
-        background-color: rgb(240, 240, 240);
-    }
+  .separator-phone {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 
-    #forgot-pass-phone{
-        display: block;
-        width: 268px;
-        text-align: right;
-    }
-    
-    #forgot-pass-phone a{
-        text-decoration: none;
-        color: rgba(0, 149, 246);
-        font-size: 14px;
-    }
+  .separator-phone #line-phone {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 270px;
+    margin: 25px auto 0;
+  }
 
-    #main-language select{
-        color: rgb(115, 115, 115);
-        font-size: 14px;
-    }
-    
-    #main-language select{
-        border: none;
-        background-color: #fafafa;
-    }
+  .separator-phone span {
+    position: absolute;
+    text-transform: uppercase;
+    color: rgb(186, 186, 186);
+    background-color: rgb(255, 255, 255);
+    top: 18px;
+    width: 50px;
+    margin-left: -25px;
+    font-size: 14px;
+  }
 
-    #main-language option{
-        font-size: 14px;
-    }
+  .form-container form input {
+    width: 235px;
+    padding: 12px;
+    font-size: 12px;
+    background-color: rgb(240, 240, 240);
+  }
 
-    .form-box{
-        margin-top: 00px;
-        width: 100%;
-        border: none;
-    }
+  #forgot-pass-phone {
+    display: block;
+    width: 268px;
+    text-align: right;
+  }
 
-    .container-sign{
-        border: none;
-        margin-top: 0;
-        padding: 10px;
-        margin-bottom: 60px;
-    }
+  #forgot-pass-phone a {
+    text-decoration: none;
+    color: rgba(0, 149, 246);
+    font-size: 14px;
+  }
 
-    .container-sign p, span{
-        font-size: 14px;
-    }
+  #main-language select {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+  }
 
-    .separator, 
-    #facebook-login,
-    .container-app,
-    #other-links,
-    #footer-language,
-    .links-hide{
-        display: none;
-    }
+  #main-language select {
+    border: none;
+    background-color: #fafafa;
+  }
 
-    .footer-phone img{
-        width:  70px;
-     }
+  #main-language option {
+    font-size: 14px;
+  }
 
-     #footer-links{
-        padding: 40px;
-        gap: 15px;
-     }
+  .form-box {
+    margin-top: 00px;
+    width: 100%;
+    border: none;
+  }
 
-  .footer-phone{
+  .container-sign {
+    border: none;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .container-sign p,
+  span {
+    font-size: 14px;
+  }
+
+  .separator,
+  #facebook-login,
+  .container-app,
+  #other-links,
+  #footer-language,
+  .links-hide {
+    display: none;
+  }
+
+  .footer-phone img {
+    width: 70px;
+  }
+
+  #footer-links {
+    padding: 40px;
+    gap: 15px;
+  }
+
+  .footer-phone {
     display: block;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
   }
-
 }
